@@ -31,12 +31,13 @@ export default {
 
 .button1{
   display: inline-block;
-  background: blue;
+  background: red;
   color: #d14719;
   border: none;
   margin: 10px;
   font-size: 20px;
   font-family: times;
+  color: black;
 }
 
 .button2{
