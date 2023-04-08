@@ -1,9 +1,9 @@
 <template>
     <header>
         <h1>{{ title }} </h1>
-        <Button text="Press me!" />
-        <Button text="Dont press me!"/>
-        <Button text="Hola Andy!"/>
+        <Button text="Press me!" color='green' />
+        <Button text="Dont press me!" color='red'/>
+        <Button text="Hola Andy!" color='blue'/>
     </header>
 </template>
 

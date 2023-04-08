@@ -1,12 +1,13 @@
 <template>
-    <button class="button1">{{text}}</button>
+    <button :style={background:color} class="button1">{{text}}</button>
 </template>
 
 <script>
     export default{
         name:'Button',
         props:{
-            text: String
+            text: String,
+            color: String
         }
 
 
