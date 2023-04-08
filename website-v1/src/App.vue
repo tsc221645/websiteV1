@@ -28,4 +28,18 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.button1{
+  display: inline-block;
+  background: blue;
+  color: #d14719;
+  border: none;
+  margin: 10px;
+  font-size: 20px;
+  font-family: times;
+}
+
+.button2{
+
+}
 </style>

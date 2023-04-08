@@ -1,9 +1,15 @@
 <template>
-    <button>Do something</button>
+    <button class="button1">{{text}}</button>
 </template>
 
 <script>
     export default{
-        name:'Button'
-    }
+        name:'Button',
+        props:{
+            text: String
+        }
+
+
+}
+
 </script>

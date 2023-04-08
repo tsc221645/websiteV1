@@ -1,6 +1,7 @@
 <template>
     <header>
         <h1>{{ title }} </h1>
+        <Button text="Press me!" />
     </header>
 </template>
 
@@ -8,7 +9,7 @@
 <script>
     //imports
     import Button from './Button'
-    
+
     export default{
 
         name: 'Header',
@@ -23,7 +24,7 @@
 
         //definition of components
         components:{
-
+            Button,
         }
     }
 </script>
