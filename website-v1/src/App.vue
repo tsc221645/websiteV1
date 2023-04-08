@@ -1,24 +1,21 @@
 <template>
   <div class="containter">
-  <h1>
-    Website V1 
-
-    Hola andy
-  </h1>
+  <Header/>
   </div>
   
 </template>
 
 <script>
-
+  import Header from './components/Header.vue'
 
 
 
 export default {
   name: 'App',
   components: {
+      Header,
     
-  }
+  },
 }
 </script>
 

@@ -1,13 +1,39 @@
 <template>
     <header>
-        <h1> No se que es esto</h1>
+        <h1>{{ title }} </h1>
     </header>
 </template>
 
 
 <script>
-
+    //imports
+    import Button from './Button'
+    
     export default{
+
         name: 'Header',
+
+        //definition of props
+        props:{
+            title:{
+                type: String,
+                default: 'Hello world'
+            }
+        },
+
+        //definition of components
+        components:{
+
+        }
     }
 </script>
+
+<style scoped>
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+</style>
