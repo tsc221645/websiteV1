@@ -1,6 +1,13 @@
 # website-v1
 
-## Project setup
+### What is the project about?
+
+### What is the purpose of the project?
+
+### What tools were used to develop the project?
+
+
+# Project setup
 ```
 npm install
 ```
